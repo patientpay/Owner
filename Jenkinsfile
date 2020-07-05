@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        echo 'hi'
+        echo 'hello world'
       }
     }
 
     stage('final') {
       steps {
-        echo 'end'
+        echo 'bye world'
       }
     }
 
