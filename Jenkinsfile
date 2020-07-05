@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        bat 'mkdir'
         echo 'hi'
       }
     }
